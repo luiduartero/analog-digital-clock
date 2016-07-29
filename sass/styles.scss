@@ -1,0 +1,91 @@
+$clock-size: 500px;
+$colorFondo: #F7D1FF;
+$colorHora: #F8FF92;
+$colorMinuto: #99405E;
+$colorSegundo: #CCBF2C;
+.clock{
+   border-radius: 100%;
+   height: $clock-size;
+   margin: 0 auto 10px auto;
+   width: $clock-size;
+   border-color: black;
+   border-style: solid;
+   background-color: $colorFondo;
+   text-align: center;
+}
+.subclock{
+   border-radius: 100%;
+   height: $clock-size - 125px;
+   width:  $clock-size - 125px;
+   margin-left: 67.5px;
+   margin-top: 67.5px;
+   background-color: $colorFondo;
+   position: absolute;
+
+}
+@for $i from 1 through 12 {
+  .num-#{$i} {
+     width: 10px;
+     height: 500px;
+     left: 50%;
+     position: absolute;
+     transform: rotate( #{30 * $i}deg);
+     display: inline-block;
+  }
+}
+@for $i from 1 through 11 {
+  .u-#{$i} {
+     position: absolute;
+     transform: rotate(  #{-30 * $i }deg);
+     display: inline-block;
+  }
+}
+@for $i from 1 through 12 {
+  .h-#{$i} {
+     width: 9px;
+     height: 100%;
+     left: 50%;
+     position: absolute;
+     transform: rotate( #{30 * $i}deg);
+     display: inline-block;
+  }
+}
+@for $i from 1 through 60 {
+  .m-#{$i} {
+     width: 6px;
+     height: 100%;
+     left: 50%;
+     position: absolute;
+     transform: rotate( #{6 * $i}deg);
+     display: inline-block;
+  }
+}
+@for $i from 1 through 60 {
+  .s-#{$i} {
+     width: 3px;
+     height: 100%;
+     left: 50%;
+     position: absolute;
+     transform: rotate( #{6 * $i}deg);
+     display: inline-block;
+  }
+}
+.h{
+  height: 50%;
+  background-color: $colorHora;
+  border-radius: 30%;
+}
+.m{
+  height: 50%;
+  background-color: $colorMinuto;
+  border-radius: 30%;
+}
+.s{
+  height: 50%;
+  background-color: $colorSegundo;
+  border-radius: 30%;
+}
+.hour {
+   margin: 0 auto 10px auto;
+}
+

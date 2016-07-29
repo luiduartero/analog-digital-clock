@@ -1,0 +1,1243 @@
+.clock {
+  border-radius: 100%;
+  height: 500px;
+  margin: 0 auto 10px auto;
+  width: 500px;
+  border-color: black;
+  border-style: solid;
+  background-color: #F7D1FF;
+  text-align: center; }
+
+.subclock {
+  border-radius: 100%;
+  height: 375px;
+  width: 375px;
+  margin-left: 67.5px;
+  margin-top: 67.5px;
+  background-color: #F7D1FF;
+  position: absolute; }
+
+.num-1 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(30deg);
+  display: inline-block; }
+
+.num-2 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(60deg);
+  display: inline-block; }
+
+.num-3 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(90deg);
+  display: inline-block; }
+
+.num-4 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(120deg);
+  display: inline-block; }
+
+.num-5 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(150deg);
+  display: inline-block; }
+
+.num-6 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(180deg);
+  display: inline-block; }
+
+.num-7 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(210deg);
+  display: inline-block; }
+
+.num-8 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(240deg);
+  display: inline-block; }
+
+.num-9 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(270deg);
+  display: inline-block; }
+
+.num-10 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(300deg);
+  display: inline-block; }
+
+.num-11 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(330deg);
+  display: inline-block; }
+
+.num-12 {
+  width: 10px;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(360deg);
+  display: inline-block; }
+
+.u-1 {
+  position: absolute;
+  transform: rotate(-30deg);
+  display: inline-block; }
+
+.u-2 {
+  position: absolute;
+  transform: rotate(-60deg);
+  display: inline-block; }
+
+.u-3 {
+  position: absolute;
+  transform: rotate(-90deg);
+  display: inline-block; }
+
+.u-4 {
+  position: absolute;
+  transform: rotate(-120deg);
+  display: inline-block; }
+
+.u-5 {
+  position: absolute;
+  transform: rotate(-150deg);
+  display: inline-block; }
+
+.u-6 {
+  position: absolute;
+  transform: rotate(-180deg);
+  display: inline-block; }
+
+.u-7 {
+  position: absolute;
+  transform: rotate(-210deg);
+  display: inline-block; }
+
+.u-8 {
+  position: absolute;
+  transform: rotate(-240deg);
+  display: inline-block; }
+
+.u-9 {
+  position: absolute;
+  transform: rotate(-270deg);
+  display: inline-block; }
+
+.u-10 {
+  position: absolute;
+  transform: rotate(-300deg);
+  display: inline-block; }
+
+.u-11 {
+  position: absolute;
+  transform: rotate(-330deg);
+  display: inline-block; }
+
+.h-1 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(30deg);
+  display: inline-block; }
+
+.h-2 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(60deg);
+  display: inline-block; }
+
+.h-3 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(90deg);
+  display: inline-block; }
+
+.h-4 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(120deg);
+  display: inline-block; }
+
+.h-5 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(150deg);
+  display: inline-block; }
+
+.h-6 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(180deg);
+  display: inline-block; }
+
+.h-7 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(210deg);
+  display: inline-block; }
+
+.h-8 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(240deg);
+  display: inline-block; }
+
+.h-9 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(270deg);
+  display: inline-block; }
+
+.h-10 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(300deg);
+  display: inline-block; }
+
+.h-11 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(330deg);
+  display: inline-block; }
+
+.h-12 {
+  width: 9px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(360deg);
+  display: inline-block; }
+
+.m-1 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(6deg);
+  display: inline-block; }
+
+.m-2 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(12deg);
+  display: inline-block; }
+
+.m-3 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(18deg);
+  display: inline-block; }
+
+.m-4 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(24deg);
+  display: inline-block; }
+
+.m-5 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(30deg);
+  display: inline-block; }
+
+.m-6 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(36deg);
+  display: inline-block; }
+
+.m-7 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(42deg);
+  display: inline-block; }
+
+.m-8 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(48deg);
+  display: inline-block; }
+
+.m-9 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(54deg);
+  display: inline-block; }
+
+.m-10 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(60deg);
+  display: inline-block; }
+
+.m-11 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(66deg);
+  display: inline-block; }
+
+.m-12 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(72deg);
+  display: inline-block; }
+
+.m-13 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(78deg);
+  display: inline-block; }
+
+.m-14 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(84deg);
+  display: inline-block; }
+
+.m-15 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(90deg);
+  display: inline-block; }
+
+.m-16 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(96deg);
+  display: inline-block; }
+
+.m-17 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(102deg);
+  display: inline-block; }
+
+.m-18 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(108deg);
+  display: inline-block; }
+
+.m-19 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(114deg);
+  display: inline-block; }
+
+.m-20 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(120deg);
+  display: inline-block; }
+
+.m-21 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(126deg);
+  display: inline-block; }
+
+.m-22 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(132deg);
+  display: inline-block; }
+
+.m-23 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(138deg);
+  display: inline-block; }
+
+.m-24 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(144deg);
+  display: inline-block; }
+
+.m-25 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(150deg);
+  display: inline-block; }
+
+.m-26 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(156deg);
+  display: inline-block; }
+
+.m-27 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(162deg);
+  display: inline-block; }
+
+.m-28 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(168deg);
+  display: inline-block; }
+
+.m-29 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(174deg);
+  display: inline-block; }
+
+.m-30 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(180deg);
+  display: inline-block; }
+
+.m-31 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(186deg);
+  display: inline-block; }
+
+.m-32 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(192deg);
+  display: inline-block; }
+
+.m-33 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(198deg);
+  display: inline-block; }
+
+.m-34 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(204deg);
+  display: inline-block; }
+
+.m-35 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(210deg);
+  display: inline-block; }
+
+.m-36 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(216deg);
+  display: inline-block; }
+
+.m-37 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(222deg);
+  display: inline-block; }
+
+.m-38 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(228deg);
+  display: inline-block; }
+
+.m-39 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(234deg);
+  display: inline-block; }
+
+.m-40 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(240deg);
+  display: inline-block; }
+
+.m-41 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(246deg);
+  display: inline-block; }
+
+.m-42 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(252deg);
+  display: inline-block; }
+
+.m-43 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(258deg);
+  display: inline-block; }
+
+.m-44 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(264deg);
+  display: inline-block; }
+
+.m-45 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(270deg);
+  display: inline-block; }
+
+.m-46 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(276deg);
+  display: inline-block; }
+
+.m-47 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(282deg);
+  display: inline-block; }
+
+.m-48 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(288deg);
+  display: inline-block; }
+
+.m-49 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(294deg);
+  display: inline-block; }
+
+.m-50 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(300deg);
+  display: inline-block; }
+
+.m-51 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(306deg);
+  display: inline-block; }
+
+.m-52 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(312deg);
+  display: inline-block; }
+
+.m-53 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(318deg);
+  display: inline-block; }
+
+.m-54 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(324deg);
+  display: inline-block; }
+
+.m-55 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(330deg);
+  display: inline-block; }
+
+.m-56 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(336deg);
+  display: inline-block; }
+
+.m-57 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(342deg);
+  display: inline-block; }
+
+.m-58 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(348deg);
+  display: inline-block; }
+
+.m-59 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(354deg);
+  display: inline-block; }
+
+.m-60 {
+  width: 6px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(360deg);
+  display: inline-block; }
+
+.s-1 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(6deg);
+  display: inline-block; }
+
+.s-2 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(12deg);
+  display: inline-block; }
+
+.s-3 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(18deg);
+  display: inline-block; }
+
+.s-4 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(24deg);
+  display: inline-block; }
+
+.s-5 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(30deg);
+  display: inline-block; }
+
+.s-6 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(36deg);
+  display: inline-block; }
+
+.s-7 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(42deg);
+  display: inline-block; }
+
+.s-8 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(48deg);
+  display: inline-block; }
+
+.s-9 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(54deg);
+  display: inline-block; }
+
+.s-10 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(60deg);
+  display: inline-block; }
+
+.s-11 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(66deg);
+  display: inline-block; }
+
+.s-12 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(72deg);
+  display: inline-block; }
+
+.s-13 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(78deg);
+  display: inline-block; }
+
+.s-14 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(84deg);
+  display: inline-block; }
+
+.s-15 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(90deg);
+  display: inline-block; }
+
+.s-16 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(96deg);
+  display: inline-block; }
+
+.s-17 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(102deg);
+  display: inline-block; }
+
+.s-18 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(108deg);
+  display: inline-block; }
+
+.s-19 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(114deg);
+  display: inline-block; }
+
+.s-20 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(120deg);
+  display: inline-block; }
+
+.s-21 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(126deg);
+  display: inline-block; }
+
+.s-22 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(132deg);
+  display: inline-block; }
+
+.s-23 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(138deg);
+  display: inline-block; }
+
+.s-24 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(144deg);
+  display: inline-block; }
+
+.s-25 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(150deg);
+  display: inline-block; }
+
+.s-26 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(156deg);
+  display: inline-block; }
+
+.s-27 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(162deg);
+  display: inline-block; }
+
+.s-28 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(168deg);
+  display: inline-block; }
+
+.s-29 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(174deg);
+  display: inline-block; }
+
+.s-30 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(180deg);
+  display: inline-block; }
+
+.s-31 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(186deg);
+  display: inline-block; }
+
+.s-32 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(192deg);
+  display: inline-block; }
+
+.s-33 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(198deg);
+  display: inline-block; }
+
+.s-34 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(204deg);
+  display: inline-block; }
+
+.s-35 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(210deg);
+  display: inline-block; }
+
+.s-36 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(216deg);
+  display: inline-block; }
+
+.s-37 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(222deg);
+  display: inline-block; }
+
+.s-38 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(228deg);
+  display: inline-block; }
+
+.s-39 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(234deg);
+  display: inline-block; }
+
+.s-40 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(240deg);
+  display: inline-block; }
+
+.s-41 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(246deg);
+  display: inline-block; }
+
+.s-42 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(252deg);
+  display: inline-block; }
+
+.s-43 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(258deg);
+  display: inline-block; }
+
+.s-44 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(264deg);
+  display: inline-block; }
+
+.s-45 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(270deg);
+  display: inline-block; }
+
+.s-46 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(276deg);
+  display: inline-block; }
+
+.s-47 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(282deg);
+  display: inline-block; }
+
+.s-48 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(288deg);
+  display: inline-block; }
+
+.s-49 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(294deg);
+  display: inline-block; }
+
+.s-50 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(300deg);
+  display: inline-block; }
+
+.s-51 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(306deg);
+  display: inline-block; }
+
+.s-52 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(312deg);
+  display: inline-block; }
+
+.s-53 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(318deg);
+  display: inline-block; }
+
+.s-54 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(324deg);
+  display: inline-block; }
+
+.s-55 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(330deg);
+  display: inline-block; }
+
+.s-56 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(336deg);
+  display: inline-block; }
+
+.s-57 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(342deg);
+  display: inline-block; }
+
+.s-58 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(348deg);
+  display: inline-block; }
+
+.s-59 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(354deg);
+  display: inline-block; }
+
+.s-60 {
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: rotate(360deg);
+  display: inline-block; }
+
+.h {
+  height: 50%;
+  background-color: #F8FF92;
+  border-radius: 30%; }
+
+.m {
+  height: 50%;
+  background-color: #99405E;
+  border-radius: 30%; }
+
+.s {
+  height: 50%;
+  background-color: #CCBF2C;
+  border-radius: 30%; }
+
+.hour {
+  margin: 0 auto 10px auto; }
