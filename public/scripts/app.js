@@ -45,7 +45,10 @@ function render(hour, minute,second,type){
 	  var h = d.getHours() ;
 	  var m = d.getMinutes();
 	  var s = d.getSeconds();
-	  viewport.innerHTML= render(h - 12,m,s,op);
+    if(h>12){
+      h= h - 12;
+    }
+	  viewport.innerHTML= render(h,m,s,op);
   }
 
 var act= setInterval(actualizacion,1000);
